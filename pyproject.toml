@@ -1,0 +1,14 @@
+[project]
+name = "llm-in-cybersecurity"
+version = "0.1.0"
+description = "Simple Phishing Email Detection App"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "openai>=1.65.5",
+    "packaging>=24.2",
+    "pydantic>=2.10.6",
+    "pytest>=8.3.5",
+    "python-dotenv>=1.0.1",
+    "streamlit>=1.43.1",
+]
