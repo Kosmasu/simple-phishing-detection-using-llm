@@ -18,6 +18,7 @@ client = OpenAI(
 
 class LLMName(str, enum.Enum):
     LLAMA_3_1_8B = "llama3.1"
+    LLAMA_3_1_8B_FINETUNED = "hf.co/Kosmasu/llama3.1-8B-phishing-email-finetuned-gguf"
 
 
 class LLM:
